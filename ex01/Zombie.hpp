@@ -6,7 +6,7 @@
 /*   By: psmolin <psmolin@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/12 01:04:50 by psmolin           #+#    #+#             */
-/*   Updated: 2025/09/17 15:14:11 by psmolin          ###   ########.fr       */
+/*   Updated: 2025/09/19 00:38:42 by psmolin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,5 @@ class Zombie
 };
 
 Zombie	*zombieHorde( int N, std::string name);
-// Zombie			*newZombie(std::string name);
-// void			randomChump(std::string name);
 
 #endif
