@@ -6,16 +6,18 @@
 /*   By: psmolin <psmolin@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/12 01:04:45 by psmolin           #+#    #+#             */
-/*   Updated: 2025/09/17 23:23:15 by psmolin          ###   ########.fr       */
+/*   Updated: 2025/09/25 12:22:44 by psmolin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanB.hpp"
 
 
-HumanB::HumanB(std::string name) : name(name), weapon(NULL) {};
+HumanB::HumanB(std::string name) : name(name), weapon(NULL) {
+	std::cout << "HumanB created" << std::endl;
+};
 
-HumanB::~HumanB() {};
+HumanB::~HumanB() {std::cout << "HumanB deleted" << std::endl;};
 
 void	HumanB::setWeapon(Weapon &newWeapon)
 {
